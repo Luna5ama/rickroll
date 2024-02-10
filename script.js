@@ -16,6 +16,9 @@ switch(Math.floor(Math.random() * 7)) {
         msg.innerHTML = "Trolled!"
         window.location.href = "https://youtu.be/gkTb9GP9lVI?t=4";
         break;
+    case 6:
+        msg.innerHTML = "Pull up!"
+        window.location.href = "https://youtu.be/oLsVrshvOaI?t=10";
     default:
         msg.innerHTML = "IndiHomed!";
         window.location.href = "https://youtu.be/_IneeB-UDFA?t=60"; 
