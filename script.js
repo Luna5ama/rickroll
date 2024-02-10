@@ -1,6 +1,6 @@
 const msg = document.getElementById("msg");
 
-switch(Math.floor(Math.random() * 7)) {
+switch(Math.floor(Math.random() * 8)) {
     case 0:
     case 1:
     case 2:
