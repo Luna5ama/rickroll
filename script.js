@@ -7,7 +7,7 @@ switch(Math.floor(Math.random() * 20)) {
     case 3:
     case 4:
         msg.innerHTML = "Rickrolled!";
-        window.location.href = "https://youtu.be/mx86-rTclzA"; 
+        window.location.href = "https://youtu.be/QDia3e12czc"; 
         break;
     case 5:
     case 6:
