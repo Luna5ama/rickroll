@@ -1,6 +1,6 @@
 const msg = document.getElementById("msg");
 
-switch(Math.floor(Math.random() * 20)) {
+switch(Math.floor(Math.random() * 26)) {
     case 0:
     case 1:
     case 2:
@@ -28,8 +28,21 @@ switch(Math.floor(Math.random() * 20)) {
         msg.innerHTML = "Pull up!"
         window.location.href = "https://youtu.be/oLsVrshvOaI?t=10";
         break;
+    case 15:
+    case 16:
+    case 17:
+    case 18:
+        msg.innerHTML = "Got Stick Bugged LOL!"
+        window.location.href = "https://youtu.be/rsDTJpsjxgs";
+        break;
+    case 19:
+    case 20:
+        msg.innerHTML = "Got Whistle‘d!"
+        window.location.href = "https://youtu.be/BbeeuzU5Qc8";
+        break;
     default:
         msg.innerHTML = "IndiHomed!";
         window.location.href = "https://youtu.be/_IneeB-UDFA?t=60"; 
         break;
 }
+
